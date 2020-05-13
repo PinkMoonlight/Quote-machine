@@ -34,7 +34,7 @@
 
 #quote-box {
   background-color: rgba(255, 94, 91, 0.9);
-  width: 300px;
+  width: 400px;
   border-radius: 5px;
 
 }
@@ -44,7 +44,7 @@
   flex-direction: column;
 }
 
-#quote-text {
+#text {
   padding: 10px;
 }
 
@@ -53,7 +53,7 @@
   /*color: #999; */
 }
 
-#quote-author {
+#author {
   color: #333;
   padding: 0 10px;
   margin-right:10px;
