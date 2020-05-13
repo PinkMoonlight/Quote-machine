@@ -28,11 +28,82 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.twitter-icon {
+  fill: aqua;
+}
+
+#quote-box {
+  background-color: rgba(255, 94, 91, 0.9);
+  width: 300px;
+  border-radius: 5px;
+
+}
+
+.display-quote {
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-text {
+  padding: 10px;
+}
+
+.quotemark {
+  font-size: 24px;
+  /*color: #999; */
+}
+
+#quote-author {
+  color: #333;
+  padding: 0 10px;
+  margin-right:10px;
+  font-size: 12px;
+  display: block;
+  align-self: flex-end;
+
+}
+
+.interactions {
+  display: flex;
+  align-items: center;
+
+}
+
+#new-quote {
+  color: rgb(255, 94, 91);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#tweet-quote {
+margin: 10px;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+}
+
+.footer p {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.name-link:link, 
+.name-link:visited {
+  background-color: #282c34;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all .2s;
+}
+
+.name-link:hover {
+    color: rgb(255, 94, 91);;
+    padding: 0 3px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3);
 }
